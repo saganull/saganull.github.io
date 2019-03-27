@@ -41,3 +41,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: right bottom;
 }	
+
+ul {
+	padding-left: 2em;
+}
