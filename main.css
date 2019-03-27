@@ -10,15 +10,12 @@ html, body {
 }
 
 @media screen and (max-width: 499px) { 
-  /*　画面サイズ 499pxまで適用　*/
   #body {	padding-left: 10%; padding-right: 10%;}
 }
 @media screen and (min-width: 500px) and (max-width: 999px) {
-  /*　画面サイズ 500pxから999pxまで適用　*/
   #body { padding:auto;}
 }
 @media screen and (min-width:1000px) {
-  /*　画面サイズ 1000px以上から適用　*/
   #body {	padding-left: 10%; padding-right: 10%;}
 }
 
