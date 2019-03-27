@@ -2597,7 +2597,7 @@ textarea {
 }
 
 ul:not(.browser-default) {
-  padding-left: 1em;
+  padding-left: 0;
   list-style-type: none;
 }
 
