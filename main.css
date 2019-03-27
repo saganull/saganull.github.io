@@ -1,0 +1,46 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 80%;
+	height: 100%;
+	text-align: center;
+	padding: auto;
+	margin: auto;
+	-webkit-text-size-adjust: 100%;
+}
+
+@media screen and (max-width: 499px) { 
+  /*　画面サイズ 499pxまで適用　*/
+  body {width: 100%;}
+}
+@media screen and (min-width: 500px) and (max-width: 999px) {
+  /*　画面サイズ 500pxから999pxまで適用　*/
+  body {width: 100%;}
+}
+@media screen and (min-width:1000px) {
+  /*　画面サイズ 1000px以上から適用　*/
+  body {width: 80%;}
+}
+
+header {
+	position: fixed !important;
+	top: 0px;
+	left: 0px;
+	width: 80%;
+	min-width: 800px;
+	height: 60px;
+	text-align: left;
+	color: #FFFFFF;
+	background-color: #009688;
+	display: flex;
+	user-select: none;
+}
+
+#body{
+	text-align: left;
+    background-image: url(kai.png);
+    background-attachment: fixed;
+	background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}	
