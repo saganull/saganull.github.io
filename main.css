@@ -16,7 +16,7 @@ html, body {
   #body { padding:auto;}
 }
 @media screen and (min-width:1000px) {
-  #body {	padding-left: 10%; padding-right: 10%;}
+  #body {	padding-left: 20%; padding-right: 20%;}
 }
 
 header {
