@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- jQuery読み込み -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- BootstrapのJS読み込み -->
+	<script src="js/bootstrap.min.js"></script>
 	<!--Import Google Icon Font-->
+
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--Import materialize.css-->
 	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
@@ -14,87 +21,112 @@
 	<title>Satoshi Saga</title>
 
 
-<script type="text/javascript">
-var CCM_DISPATCHER_FILENAME = 'https://saga-lab.org//concrete/index.php';
-var CCM_CID = 180;
-var CCM_EDIT_MODE = false;
-var CCM_ARRANGE_MODE = false;
-var CCM_IMAGE_PATH = "https://saga-lab.org//concrete/updates/concrete5.6.3.3.ja_updater/concrete/images";
-var CCM_TOOLS_PATH = "https://saga-lab.org//concrete/index.php/tools/required";
-var CCM_BASE_URL = "https://saga-lab.org";
-var CCM_REL = "https://saga-lab.org//concrete";
+	<script type="text/javascript">
+		var CCM_DISPATCHER_FILENAME = 'https://saga-lab.org//concrete/index.php';
+		var CCM_CID = 180;
+		var CCM_EDIT_MODE = false;
+		var CCM_ARRANGE_MODE = false;
+		var CCM_IMAGE_PATH = "https://saga-lab.org//concrete/updates/concrete5.6.3.3.ja_updater/concrete/images";
+		var CCM_TOOLS_PATH = "https://saga-lab.org//concrete/index.php/tools/required";
+		var CCM_BASE_URL = "https://saga-lab.org";
+		var CCM_REL = "https://saga-lab.org//concrete";
 
-</script>
+	</script>
 
-<style type="text/css">html {margin-top: 49px !important;} </style>
+	<style type="text/css">html {margin-top: 49px !important;} </style>
 
-<script type="text/javascript">
-var CCM_SECURITY_TOKEN = '1553670881:c51e908d13ece4ed6dd8ce3fc28de0e1';</script>
-<link rel="stylesheet" type="text/css" href="https://saga-lab.org/concrete/updates/concrete5.6.3.3.ja_updater/concrete/css/ccm.base.css" />
-<script type="text/javascript" src="https://saga-lab.org/concrete/updates/concrete5.6.3.3.ja_updater/concrete/js/jquery.js"></script>
-<script type="text/javascript" src="https://saga-lab.org/concrete/updates/concrete5.6.3.3.ja_updater/concrete/js/ccm.base.js"></script>
-<style type="text/css"> 
-#blockStyle163Header26 {background-color:#000000; background-repeat:no-repeat; } 
-</style>
-<link rel="stylesheet" type="text/css" href="https://saga-lab.org/concrete/updates/concrete5.6.3.3.ja_updater/concrete/css/ccm.app.css" />
-<link rel="stylesheet" type="text/css" href="https://saga-lab.org/concrete/updates/concrete5.6.3.3.ja_updater/concrete/css/jquery.ui.css" />
-<style type="text/css"> 
-#blockStyle109Main7 {text-align:right; background-repeat:no-repeat; } 
-</style>
-<style type="text/css"> 
-#blockStyle127Main8 {text-align:right; background-repeat:no-repeat; } 
-</style>
-<link rel="stylesheet" type="text/css" href="https://saga-lab.org/concrete/updates/concrete5.6.3.3.ja_updater/concrete/blocks/search/view.css" />
-<style type="text/css"> 
-#blockStyle107Main6 {text-align:right; background-repeat:no-repeat; } 
-</style>
+	<script type="text/javascript">
+	var CCM_SECURITY_TOKEN = '1553670881:c51e908d13ece4ed6dd8ce3fc28de0e1';</script>
+	<link rel="stylesheet" type="text/css" href="https://saga-lab.org/concrete/updates/concrete5.6.3.3.ja_updater/concrete/css/ccm.base.css" />
+	<script type="text/javascript" src="https://saga-lab.org/concrete/updates/concrete5.6.3.3.ja_updater/concrete/js/jquery.js"></script>
+	<script type="text/javascript" src="https://saga-lab.org/concrete/updates/concrete5.6.3.3.ja_updater/concrete/js/ccm.base.js"></script>
+	<style type="text/css"> 
+		#blockStyle163Header26 {background-color:#000000; background-repeat:no-repeat; } 
+	</style>
+	<link rel="stylesheet" type="text/css" href="https://saga-lab.org/concrete/updates/concrete5.6.3.3.ja_updater/concrete/css/ccm.app.css" />
+	<link rel="stylesheet" type="text/css" href="https://saga-lab.org/concrete/updates/concrete5.6.3.3.ja_updater/concrete/css/jquery.ui.css" />
+	<style type="text/css"> 
+		#blockStyle109Main7 {text-align:right; background-repeat:no-repeat; } 
+	</style>
+	<style type="text/css"> 
+		#blockStyle127Main8 {text-align:right; background-repeat:no-repeat; } 
+	</style>
+	<link rel="stylesheet" type="text/css" href="https://saga-lab.org/concrete/updates/concrete5.6.3.3.ja_updater/concrete/blocks/search/view.css" />
+	<style type="text/css"> 
+		#blockStyle107Main6 {text-align:right; background-repeat:no-repeat; } 
+	</style>
 
 
-<style type="text/css"> * {margin:0; padding:0; text-indent:0; }
- .s1 { color: black;  font-style: normal; font-weight: normal; text-decoration: none; }
- .s2 { color: black;  font-style: normal; font-weight: normal; text-decoration: none; }
- .s3 { color: black;  font-style: normal; font-weight: normal; text-decoration: none; ; }
- h1 { color: black;  font-style: normal; font-weight: bold; text-decoration: none;    }
- .p, p{ color: black;  font-style: normal; font-weight: normal; text-decoration: none; margin:0pt; }
- .a { color: black;  font-style: normal; font-weight: normal; text-decoration: none;  }
- .s4 { color: black;  font-style: normal; font-weight: normal; text-decoration: none; ; }
- .s5 { color: black;  font-style: italic; font-weight: normal; text-decoration: none; }
- .s6 { color: black;  font-style: normal; font-weight: normal; text-decoration: none;  }
- li {display: block; }
- #l1 {padding-left: 0pt;counter-reset: c1 1; }
- #l1> li:before {counter-increment: c1; content: counter(c1, decimal)" "; color: black; font-family:Georgia, serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 14pt; }
- #l1> li:first-child:before {counter-increment: c1 0;  }
- #l2 {padding-left: 0pt;counter-reset: c2 1; }
- #l2> li:before {counter-increment: c2; content: "["counter(c2, decimal)"] "; color: black; font-family:Century, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 10pt; }
- #l2> li:first-child:before {counter-increment: c2 0;  }
+	<style type="text/css"> * {margin:0; padding:0; text-indent:0; }
+	.s1 { color: black;  font-style: normal; font-weight: normal; text-decoration: none; }
+	.s2 { color: black;  font-style: normal; font-weight: normal; text-decoration: none; }
+	.s3 { color: black;  font-style: normal; font-weight: normal; text-decoration: none; ; }
+	h1 { color: black;  font-style: normal; font-weight: bold; text-decoration: none;    }
+	.p, p{ color: black;  font-style: normal; font-weight: normal; text-decoration: none; margin:0pt; }
+	.a { color: black;  font-style: normal; font-weight: normal; text-decoration: none;  }
+	.s4 { color: black;  font-style: normal; font-weight: normal; text-decoration: none; ; }
+	.s5 { color: black;  font-style: italic; font-weight: normal; text-decoration: none; }
+	.s6 { color: black;  font-style: normal; font-weight: normal; text-decoration: none;  }
+	li {display: block; }
+	#l1 {padding-left: 0pt;counter-reset: c1 1; }
+	#l1> li:before {counter-increment: c1; content: counter(c1, decimal)" "; color: black; font-family:Georgia, serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 14pt; }
+	#l1> li:first-child:before {counter-increment: c1 0;  }
+	#l2 {padding-left: 0pt;counter-reset: c2 1; }
+	#l2> li:before {counter-increment: c2; content: "["counter(c2, decimal)"] "; color: black; font-family:Century, serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 10pt; }
+	#l2> li:first-child:before {counter-increment: c2 0;  }
 </style>
 
 
 <link rel="stylesheet" type="text/css" href="https://saga-lab.org/concrete/updates/concrete5.6.3.3.ja_updater/concrete/blocks/slideshow/view.css" />
-	
+
 <!-- Site Header Content //-->
 <link rel="stylesheet" media="screen" type="text/css" href="https://saga-lab.org/concrete/files/cache/css/default/main.css" />
 <link rel="stylesheet" media="screen" type="text/css" href="https://saga-lab.org/concrete/files/cache/css/default/typography.css" />
 
 
+
 </head>
+
+
 <body>
-<div id="body">	
-	  <p><img style="float: right; width: 200px;" src="image/saga.jpg" alt="Satoshi Saga"></p>
-<h1>嵯峨 智</h1>
-<h2>連絡先</h2>
-<ul>
-<li>Tel: +81-96-342-3841, Fax: +81-96-342-3621</li>
-<li>E-mail: saga[at]cs.kumamoto-u.ac.jp, saga[at]saga-lab.org</li>
+
+
+
+
+<div class="container-fluid">
+	<ul class="nav nav-tabs">
+		<li class="nav-item">
+	    	<a href="#tab1" class="nav-link active" data-toggle="tab">Japanese</a>
+  		</li>
+		<li class="nav-item">
+	    	<a href="#tab2" class="nav-link" data-toggle="tab">English</a>
+  		</li>
 </ul>
-<h2>所属</h2>
-<ul>
-<li>熊本大学 大学院先端科学研究部 <br>情報・エネルギー部門 医用福祉工学分野 准教授</li>
-<!-- 環境科学部門 知能情報工学分野 --></ul>
-<h2>研究</h2>
-<ul>
-<h3>触覚ディスプレイ</h3>
-<ul>
+
+
+
+
+
+
+<div class="tab-content">
+	<div id="tab1" class="tab-pane active">
+		<div id="body">
+			<p><img style="float: right; width: 200px;" src="image/saga.jpg" alt="Satoshi Saga"></p>
+			<h1>嵯峨 智</h1>
+			<h2>連絡先</h2>
+			<ul>
+				<li>Tel: +81-96-342-3841, Fax: +81-96-342-3621</li>
+				<li>E-mail: saga[at]cs.kumamoto-u.ac.jp, saga[at]saga-lab.org</li>
+			</ul>
+			<h2>所属</h2>
+			<ul>
+				<li>熊本大学 大学院先端科学研究部 <br>情報・エネルギー部門 医用福祉工学分野 准教授</li>
+				<!-- 環境科学部門 知能情報工学分野 -->
+			</ul>
+			<h2>研究</h2>
+			<ul>
+				<h3>触覚ディスプレイ</h3>
+				<ul>
 <li><a title="Machine Learning" href="https://saga-lab.org/concrete/index.php/projects/machine-learning/">触覚ディスプレイのための触覚振動の機械学習による評価</a></li>
 <li><a title="Texture Display" href="https://saga-lab.org/concrete/index.php/projects/texture-display/">剪断力を用いたテクスチャ/形状同時提示ディスプレイ</a></li>
 <li><a title="2.5D Display" href="https://saga-lab.org/concrete/index.php/projects/2.5d-display/">剪断力を用いた2.5次元触覚ディスプレイ</a></li>
@@ -211,6 +243,153 @@ var CCM_SECURITY_TOKEN = '1553670881:c51e908d13ece4ed6dd8ce3fc28de0e1';</script>
 	<li><a href="http://patent.astamuse.com/ja/published/JP/No/2008008746/"><span style="text-decoration: underline;">嵯峨</span><span style="text-decoration: underline;">智</span>, 梶本 裕之, 舘 暲. 反射像を用いた触覚センサ. <em>No. 2008008746, </em>2008.</a></li>
 	<li><a href="http://patent.astamuse.com/ja/published/JP/No/2009066167/">田所 諭, 昆陽 雅司, <span style="text-decoration: underline;">嵯峨</span><span style="text-decoration: underline;">智</span>, 畑崎 計成, 武村 史朗, 新妻 翔. 自走式ケーブル装置. <em>No. 2009066167, </em>2009.</a></li>
 </ul>
+</div>
+  </div>
+
+
+
+
+
+
+
+  <div id="tab2" class="tab-pane">
+		<div id="body">
+			<p><img style="float: right; width: 200px;" src="image/saga.jpg" alt="Satoshi Saga"></p>
+			<h1>Satoshi Saga</h1>
+			<h2>Contact</h2>
+			<ul>
+				<li>Tel: +81-96-342-3841, Fax: +81-96-342-3621</li>
+				<li>E-mail: saga[at]cs.kumamoto-u.ac.jp, saga[at]saga-lab.org</li>
+			</ul>
+			<h2>Affiliation</h2>
+			<ul>
+				<li>Associate Professor, Field of Biomedical and Welfare Engineering, <br>
+				Division of Informatics and Energy, Faculty of Advanced Science and Technology, <br>
+				Kumamoto University</li>
+				<!-- 環境科学部門 知能情報工学分野 -->
+			</ul>
+			<h2>Research</h2>
+			<ul>
+				<h3>Tactile Display</h3>
+				<ul>
+<li><a title="Machine Learning" href="https://saga-lab.org/concrete/index.php/projects/machine-learning/">Machine Leaning Based Evaluation of Vibrotactile Signals</a></li>
+<li><a title="Texture Display" href="https://saga-lab.org/concrete/index.php/projects/texture-display/">Lateral Force Based Texture and Shape Display</a></li>
+<li><a title="2.5D Display" href="https://saga-lab.org/concrete/index.php/projects/2.5d-display/">Lateral Force Based 2.5 Dimensional Display</a></li>
+<li><a title="Dilatant Display" href="https://saga-lab.org/concrete/index.php/projects/dilatant-display/">Dilatant Fluid Based Display</a></li>
+</ul>
+<h3>Tactile Sensor</h3>
+<ul>
+<li><a title="Active Sensing" href="https://saga-lab.org/concrete/index.php/projects/active-sensing/">High Precision and Robust Sensing Based on Active Sensing</a></li>
+<li><a title="Thin Sensor" href="https://saga-lab.org/concrete/index.php/projects/thin-sensor/">Thin Sensor for Touchscreen</a></li>
+<li><a title="Fibratus Tactile Sensor" href="https://saga-lab.org/concrete/index.php/projects/fibratus-tactile-sensor/">Fibratus Tactile Sensor</a></li>
+<li><a title="RefShape" href="https://saga-lab.org/concrete/index.php/projects/refshape/">RefShape</a></li>
+</ul>
+<h3>Haptic Teaching</h3>
+<ul>
+<li><a title="Haptic Video" href="https://saga-lab.org/concrete/index.php/projects/haptic-video/">Haptic Video</a></li>
+<li><a title="Haptic Teaching" href="https://saga-lab.org/concrete/index.php/projects/haptic-teaching/">Haptic Teaching</a></li>
+<li>Telepalpation Systemイ</li>
+</ul>
+</ul>
+<h2>Employment History</h2>
+<ul>
+<li>2000.04 Researcher of IS Laboratory, SECOM, Co., Ltd.</li>
+<li>2007.03 PhD (Information Science and Technology), Graduate school of Information Science and Technology, University of Tokyo</li>
+<li>2007.04 Assistant Professor, Division of Mechanical Engineering, Tohoku University</li>
+<li>2008.04 Assistant Professor, Graduate School of Information Science, Tohoku University</li>
+<li>2012.04-06 Visiting Assistant Professor, Media Lab, Massachusetts Institute of Technology (Additional Post)</li>
+<li>2013.04-2017.09&nbsp;Associate Professor, Faculty of Engineering, Information and Sysmtems, Universyt of Tsukuba</li>
+<li>2017.10-12&nbsp;Part-time Lecturer, Colleage of Media Arts, Science and Technology, School of Informatics, University of Tsukuba</li>
+<li>2017.10-&nbsp;Associate Professor, Intelligent Information Technology,&nbsp;Divison of Environmental Science,&nbsp;Faculty of Advanced Science and Technology, Kumamoto University</li>
+</ul>
+<h2>Education</h2>
+<ul>
+<li>2000.03 Master (Mathematical Engineering and Information Physics)</li>
+<li>2007.03 Ph.D (Information Science and Technology)</li>
+</ul>
+<h2>Awards</h2>
+<ul>
+<li>SICE SI Division SI2009 Awards for good presentation (2010.03.23): Shogo Hosomichi, Satoshi Saga, Koichiro Deguchi. Design and evaluation of reflction based tactile sensor with diffused lighting source. In 10th Conference of SICE System Integration Diviosion, 2009 (Domestic)</li>
+<li>Japanese Society of Mechanical Engineering Robotics and Mechatronics Division Prize (2009.05.25): Shogo Okamoto, Masashi Konyo, Satoshi Saga, Satoshi Tadokoro. Identification of Cutaneous Detection Thresholds against Time-Delay and its Effects on Subjective Feelings, 13rd Conference of Robotics Symposia, pp. 153-158, Kotohira, 2008. (Domestic)</li>
+<li>13rd Conference of Robotics Symposia Good Paper Award (2008.3.16): Shogo Okamoto, Masashi Konyo, Satoshi Saga, Satoshi Tadokoro. Identification of Cutaneous Detection Thresholds against Time-Delay and its Effects on Subjective Feelings, 13rd Conference of Robotics Symposia, pp. 153-158, Kotohira, 2008. (Domestic)</li>
+<li>Outstanding Paper Award Winner at the Literati Network Awards for Excellence 2008: Satoshi Saga, Hiroyuki Kajimoto, Susumu Tachi. High-resolution tactile sensor using the deformation of a reflection image, Sensor Review Related Link</li>
+<li>Virtual Reality Society of Japan Good Research Award: Satoshi Saga , Hiroyuki Kajimoto, Susumu Tachi. High-Resolution Tactile Sensor using Movement of a Reflected Image--The Use of Active Patterns--, 11<sup>th</sup> Conference of Virtual Reality Society of Japan, 2006. (Domestic)</li>
+</ul>
+
+<h1>Publications</h1>
+<h2>Transactions</h2>
+<ul>
+<li><a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=4906992&amp;isnumber=5136867">Shogo Okamoto, Masashi Konyo, Satoshi Saga, and Satoshi Tadokoro, Detectability and Perceptual Consequences of Delayed Feedback in a Vibrotactile Texture Display, IEEE Transactions on Haptics, vol. 2, issue 2, pp. 73-84, 2009.</a></li>
+<li><a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=4906992&amp;isnumber=5136867">Satoshi Saga, Hiroyuki Kajimoto, and Susumu Tachi. High-resolution Tactile Sensor using the Deformation of a Reflection Image. Sensor Review, Vol. 27, pp. 35-42, 2006.</a></li>
+<li><a href="http://ci.nii.ac.jp/naid/110008728992">Satoshi Saga, Hiroyuki Kajimoto, Susumu Tachi. Haptic Video-Recording and Playing System of Working Environment utilizing Impedance Information-. Transaction of Virtual Reality Society of Japan, Vol. 11, No. 4, pp. 487-495, 2006. (Domestic)</a></li>
+<li><a href="http://ci.nii.ac.jp/naid/110008728906">Satoshi Saga, Naoki Kawakami, Susumu Tachi. A Study on Teaching Methods utilizing a Proactivity in Haptics, Transaction of Virtual Reality Society of Japan, Vol. 10, No. 3, pp. 363-369, 2005. (Domestic)</a></li>
+<li><a href="http://ci.nii.ac.jp/naid/110002674366">Koichiro Deguchi, Shingo Kagami, Satoshi Saga, Hidekata Hontani. Real-Time Object Tracking and 3D Reconstruction by Active Camera. Transaction of SICE, Vol. 35, No. 5, pp. 675-683, 1999. (Domestic)</a></li>
+</ul>
+
+
+<h2>International Conferences</h2>
+<ul>
+<li>Hirobumi Tomita, Shin  Takahashi, Satoshi  Saga, Simona  Vasilache, and Hiroyuki  Kajimoto. <a href=>Toward the Modeling of Tactile Sensation on Electrostatic Tactile Display</a>. In Proceedings of International Display Workshop 2018, 2018</li>
+<li>Shotaro Agatsuma, Junya  Kurogi, Satoshi  Saga, Simona  Vasilache, and Shin  Takahashi. <a href=>Signal Generation for Vibrotactile Display by Generative Adversarial Network</a>. In Proceedings of AsiaHaptics 2018, 2018</li>
+<li>Satoshi Saga. <a href=>Thermal-Radiation-Based Haptic Display - Laser-Emission-Based Radiation System -</a>. In Proceedings of AsiaHaptics 2018, 2018</li>
+<li>Hirobumi Tomita, Satoshi  Saga, Hiroyuki  Kajimoto, Simona  Vasilache, and Shin  Takahashi. <a href=>An Attempt of Displaying Softness Feeling Using Multi-ElectrodesBased Electrostatic Tactile Display</a>. In Proceedings of AsiaHaptics 2018, 2018</li>
+<li>Shotaro Agatsuma, Shinji  Nakagawa, Tomoyoshi  Ono, Satoshi  Saga, Simona  Vasilache, and Shin  Takahashi. <a href=https://www.springerprofessional.de/en/classification-method-of-rubbing-haptic-information-using-convol/15917180>Classification Method of Rubbing Haptic Information Using Convolutional Neural Network</a>. In Proceedings of International Conference, HCI International 2018 pp.159--167, 2018</li>
+<li>Shotaro Agatsuma, Masafumi  Nakagawa, Tomoyoshi  Ono, Shin  Takahashi, and Satoshi  Saga. <a href=>Daily Haptic Information Collection System Using ZigBee-based Microcomputer</a>. In Proceedings of EuroHaptics 2018 pp.WIP-20, 2018</li>
+<li>Satoshi Saga. <a href=>Thermal-Radiation-Based Haptic Display - Position and Radiation Intensity Calibration -</a>. In Proceedings of EuroHaptics 2018 pp.WIP-18, 2018</li>
+<li>Hirobumi Tomita, Satoshi  Saga, Hiroyuki  Kajimoto, Simona  Vasilache, and Shin  Takahashi. <a href=https://ieeexplore.ieee.org/iel7/8354412/8357134/08357169.pdf>A Study of Tactile Sensation and Magnitude on Electrostatic Tactile Display</a>. In Proceedings of IEEE Haptics Symposium 2018 pp.158--162, 2018</li>
+<li>Satoshi Saga. <a href=>Lateral Force Produces Geometry and Texture Information on Touchscreen</a>. In Proceedings of International Display Workshop 2017, 2017</li>
+<li>Shuta Nakamae, Shumpei  Kataoka, Can  Tang, Simona  Vasilache, Satoshi  Saga, Buntarou  Shizuki, and Shin  Takahashi. <a href=https://link.springer.com/chapter/10.1007/978-3-319-63088-5_14>Children's Social Behavior Analysis System Using BLE and Accelerometer</a>. In International Conference on Collaboration Technologies pp.153--167, 2017</li>
+<li>Satoshi Saga. <a href=>Thermal-Radiation-Based Haptic Display - Precise Calibration System and Shape Displaying Method -</a>. In Proceedings of IEEE World Haptics 2017 pp.WIP-112, 2017</li>
+<li>Hirobumi Tomita, Satoshi  Saga, and Hiroyuki  Kajimoto. <a href=>Onomatopoeic-based Classification of Generated Sensation on Electrostatic Tactile Display</a>. In Proceedings of IEEE WorldHaptics 2017 pp.WIP-26, 2017</li>
+<li>Shuta Nakamae, Shumpei  Kataoka, Can  Tang, Yue  Pu, Simona  Vasilache, Satoshi  Saga, Buntarou  Shizuki, and Shin  Takahashi. <a href=https://link.springer.com/chapter/10.1007/978-3-319-58562-8_33>BLE-Based Childrens Social Behavior Analysis System for Crime Prevention</a>. In Proceedings of International Conference, HCI International 2017 pp.429-439, 2017</li>
+<li>Satoshi Saga. <a href=https://link.springer.com/chapter/10.1007/978-981-10-4157-0_11>Thermal-Radiation-Based Haptic Display - Calibration and Shape display -</a>. In Proceedings of AsiaHaptics 2016 pp.67-70, 2016</li>
+<li>Takahiro Shitara, Yuriko  Nakai, Haruya  Uematsu, Vibol  Yem, Hiroyuki  Kajimoto, and Satoshi  Saga. <a href=https://link.springer.com/chapter/10.1007/978-981-10-4157-0_1>Reconsideration of Ouija Board Motion in Terms of Haptics Illusions (II) Development of a 1-DoF Linear Rail Device</a>. In Proceedings of AsiaHaptics 2016 pp.3--8, 2016</li>
+<li>Hirobumi Tomita, Satoshi  Saga, and Hiroyuki  Kajimoto. <a href=https://link.springer.com/chapter/10.1007/978-981-10-4157-0_29>Multi-Electrodes-based Electrostatic Tactile Display</a>. In Proceedings of AsiaHaptics 2016 pp.171-174, 2016</li>
+<li>Satoshi Saga. <a href=https://link.springer.com/chapter/10.1007/978-3-319-42324-1_46>Calibration Method of Thermal-Radiation-Based Haptic Display</a>. In Proceedings of EuroHaptics2016 pp.470-478, 2016</li>
+<li>Takahiro Shitara, Yuriko  Nakai, Haruya  Uematsu, Vibol  Yem, Hiroyuki  Kajimoto, and Satoshi  Saga. <a href=https://link.springer.com/chapter/10.1007/978-3-319-42324-1_14>Reconsideration of Ouija Board Motion in Terms of Haptics Illusions</a>. In Proceedings of EuroHaptics2016 pp.139--146, 2016</li>
+<li>Satoshi Saga, Ryota  Oki, Shusuke  Kawagoe, Wanjia  Zheng, and Jiacheng  Sun. <a href=http://www.springer.com/us/book/9783319213798>AR-Technology-Based Locationing System for Interactive Content</a>. In Proceedings of International Conference, HCI International 2015 pp.519-524, 2015</li>
+<li>Satoshi Saga. <a href=>Thermal-Radiation-Based Haptic Display :Basic Concept</a>. In Proceedings of IEEE World Haptics 2015 pp.WIP-28, 2015</li>
+<li>Satoshi Saga. <a href=https://link.springer.com/chapter/10.1007/978-4-431-55690-9_19>HeatHapt:Thermal-Radiation-Based Haptic Display</a>. In Haptic Interaction: Perception, Devices and Applications (Proceedings of AsiaHaptics 2014) pp.105-106, 2014</li>
+<li>Satoshi Saga, and Ramesh  Raskar. <a href=https://ieeexplore.ieee.org/abstract/document/6548448/>Simultaneous geometry and texture display based on lateral force for touchscreen</a>. In Proceedings of IEEE World Haptics 2013 pp.437--442, 2013</li>
+<li>Satoshi Saga, and Ramesh  Raskar. <a href=https://dl.acm.org/citation.cfm?id=2407715>Feel through window: Simultaneous geometry and texture display based on lateral force</a>. In Conference Abstracts and Applications of SIGGRAPH ASIA 2012, Singapore, 2012</li>
+<li>Satoshi Saga, and Koichiro  Deguchi. <a href=https://ieeexplore.ieee.org/abstract/document/6183764/>Lateral-force-based 2.5-dimensional tactile display for touch screen</a>. In Proceedings of IEEE Haptics Symposium 2012 pp.15--22, 2012</li>
+<li>Momotaro Koike, Satoshi  Saga, Takayuki  Okatani, and Koichiro  Deguchi. <a href=https://ieeexplore.ieee.org/abstract/document/5945556/>Sensing method of total-internal-reflection-based tactile sensor</a>. In Proceedings of IEEE World Haptics 2011 pp.615--619, 2011</li>
+<li>Ryosuke Taira, Satoshi  Saga, Takayuki  Okatani, and Koichiro  Deguchi. <a href=https://ieeexplore.ieee.org/abstract/document/5945507/>Optimum method for real-time reconstruction of sensor surface in total-internal-reflection based tactile sensor</a>. In Proceedings of IEEE World Haptics 2011 pp.329--334, 2011</li>
+<li>Eisuke Ito, Satoshi  Saga, Takayuki  Okatani, and Koichiro  Deguchi. <a href=https://ieeexplore.ieee.org/abstract/document/5604012/>GPU-based High-Speed and High-Precision Visual Tracking</a>. In Proceedings of SICE Annual Conference 2010 in Taiwan pp.2151--2154, 2010</li>
+<li>Ryosuke Taira, Satoshi  Saga, Takayuki  Okatani, and Koichiro  Deguchi. <a href=https://ieeexplore.ieee.org/abstract/document/5602820/>3D reconstruction of reflective surface on reflection type tactile sensor using constraints of geometrical optics</a>. In Proceedings of SICE Annual Conference 2010 in Taiwan pp.3144--3149, 2010</li>
+<li>Satoshi Saga, and Koichiro  Deguchi. <a href=https://ieeexplore.ieee.org/abstract/document/5444638/>Dilatant fluid based tactile display -Basic concept-</a>. In Proceeding of IEEE Haptics Symposium 2010 pp.309-312, 2010</li>
+<li>Satoshi Saga, Masashi  Konyo, and Koichiro  Deguchi. <a href=https://ieeexplore.ieee.org/abstract/document/5326297/>Comparison of spatial and temporal characteristic between reflection-type tactile sensor and human cutaneous sensation</a>. In Proceedings of 18th IEEE International Symposium on Robot and Human Interactive Communication pp.22-27, 2009</li>
+<li>Shogo Okamoto, Kensuke  Kurose, Satoshi  Saga, Kazunori  Ohno, and Satoshi  Tadokoro. <a href=https://ieeexplore.ieee.org/document/4745881>Validation of Simulated Robots with Realistically Modeled Dimensions and Mass in USARSim</a>. In Proceedings of 2008 IEEE International Workshop on Safety, Security and Rescue Robotics (SSRR'08) pp.77--82, 2008</li>
+<li>Kensuke Kurose, Satoshi  Saga, Shogo  Okamoto, Kazunori  Ohno, and Satoshi  Tadokoro. <a href=https://ieeexplore.ieee.org/abstract/document/4650898/>Designing of online simulation environment for development control algorithms for robots operating in rough terrains</a>. In Proceedings of 2008 IEEE/RSJ International Conference on Intelligent Robots and Systems pp.2091--2096, 2008</li>
+<li>Naoki Midorikawa, Kazunori  Ohno, Satoshi  Saga, and Satoshi  Tadokoro. <a href=https://ieeexplore.ieee.org/document/4651010/>Development of On-Line Simulation System for Multi Camera Based Wide Field of View Display</a>. In Proceedings of 2008 IEEE/RSJ International Conference on Intelligent Robots and Systems pp.2097--2102, 2008</li>
+<li>Satoshi Saga, Satoshi  Tadokoro, and Susumu  Tachi. <a href=http://dl.acm.org/citation.cfm?id=1423773.1423836>Dynamic conditions of reflection-type tactile sensor</a>. In Haptics: Perception, Devices and Scenarios (Proceedings of 6th International Conference, EuroHaptics 2008) pp.464-473, 2008</li>
+<li>Shogo Okamoto, Masashi  Konyo, Satoshi  Saga, and Satoshi  Tadokoro. <a href=http://ieeexplore.ieee.org/document/4543212/>Identification of Cutaneous Detection Thresholds against Time-delay Stimuli for Tactile Displays</a>. In Proceedings of IEEE International Conference on Robotics and Automation 2008 pp.220-225, 2008</li>
+<li>Satoshi Saga, Shinobu  Kuroki, Naoki  Kawakami, and Susumu  Tachi. <a href=http://dl.acm.org/citation.cfm?id=1278284>Fibratus tactile sensor using reflection on an optical lever</a>. In Conference Abstracts and Applications of SIGGRAPH2007, San Diego, America, 2007</li>
+<li>Satoshi Saga, Shinobu  Kuroki, and Susumu  Tachi. <a href=http://files.tachilab.org/publications/intconf2000/saga200705ISMCR.pdf>Fibratus tactile sensor using reflection image -The requirements of fibratus tactile sensor-</a>. In Proceedings of 16th International Symposium on Measurement and Control in Robotics, Warsaw, Poland, 2007</li>
+<li>Satoshi Saga, Takeshi  Morooka, Hiroyuki  Kajimoto, and Susumu  Tachi. <a href=http://lsc.univ-evry.fr/~eurohaptics/upload/cd/paper066.html>High-Resolution Tactile Sensor Using The Movement of Reflected Image</a>. In Proceedings of EuroHaptics 2006 pp.81-86, 2006</li>
+<li>Satoshi Saga, Kevin  Vlack, Hiroyuki  Kajimoto, and Susumu  Tachi. <a href=http://www.siggraph.org/s2005/main.php?f=conference&p=etech&s=etech13>Haptic video</a>. In ACM SIGGRAPH 2005 Emerging technologies7, 2005</li>
+<li>Satoshi Saga, Naoki  Kawakami, and Susumu  Tachi. <a href=>Haptic Teaching using Opposite Force Presentation</a>. In Conference Abstracts of World Haptics 2005 CD-ROM, 2005</li></ul>
+
+<h2>Book</h2>
+<ul>
+	<li><a href="https://www.springer.com/la/book/9784431557715">
+		Kajimoto, H.; Saga, S. &amp; Konyo, M. (Eds.), Pervasive Haptics, Springer, 2016.</a></li>
+	<li><a href="http://www.intechopen.com/books/sensors-focus-on-tactile-force-and-stress-sensors">
+		Vedran Kordic (ed.). Sensors, Focus on Tactile, Force and Stress Sensors. Ch. 18 IN-TECH, 2008.</a></li>
+</ul>
+
+<h2>Patent</h2>
+<ul>
+	<li><a href="http://patent.astamuse.com/ja/published/JP/No/2008008746/"><span style="text-decoration: underline;">嵯峨</span><span style="text-decoration: underline;">智</span>, 梶本 裕之, 舘 暲. 反射像を用いた触覚センサ. <em>No. 2008008746, </em>2008.</a></li>
+	<li><a href="http://patent.astamuse.com/ja/published/JP/No/2009066167/">田所 諭, 昆陽 雅司, <span style="text-decoration: underline;">嵯峨</span><span style="text-decoration: underline;">智</span>, 畑崎 計成, 武村 史朗, 新妻 翔. 自走式ケーブル装置. <em>No. 2009066167, </em>2009.</a></li>
+</ul>
+</div>
+  </div>
+
+
+
+
+  </div>
 </div>
 </body>
 </html>
